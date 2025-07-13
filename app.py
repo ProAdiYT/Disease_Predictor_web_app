@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Jul 13, 2025
+@author: Aditya Bhadauria
+"""
+
 import streamlit as st
 import pickle
 import numpy as np
@@ -6,9 +12,11 @@ import numpy as np
 model = pickle.load(open('diabetes_model.sav', 'rb'))
 scaler = pickle.load(open('scaler.sav', 'rb'))
 
+# Page layout
 st.set_page_config(page_title="Diabetes Prediction", layout="centered")
 st.title('🧠 Diabetes Prediction using ML')
-st.subheader('Enter your health data:')
+st.subheader('Enter your health data below to check diabetes status')
+st.markdown("**Developed by Aditya Bhadauria**")
 
 # Input fields
 col1, col2, col3 = st.columns(3)
@@ -43,3 +51,7 @@ if st.button("Predict"):
         st.success("🔴 The person is diabetic.")
     else:
         st.success("🟢 The person is not diabetic.")
+
+# Footer
+st.markdown("---")
+st.caption("© 2025 Aditya Bhadauria. All rights reserved.")
