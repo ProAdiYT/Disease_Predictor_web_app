@@ -141,10 +141,3 @@ This project is licensed under the MIT License.
 This application is for educational purposes only and should not be used as a substitute for professional medical advice.
 
 
-```
-
-If you want, I can next:
-- add **cool badges (like top GitHub repos)**
-- add **project screenshots section**
-- or make it **resume-level premium README (for recruiters)** 🚀
-```
