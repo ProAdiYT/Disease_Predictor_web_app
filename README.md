@@ -27,7 +27,7 @@ This project demonstrates how to build, train, and deploy an ML model in a simpl
 ---
 
 ## 📁 Project Structure
-'''
+```
 Disease_Predictor_web_app/
 │
 ├── app.py
@@ -37,4 +37,4 @@ Disease_Predictor_web_app/
 ├── project_1_diabetes_prediction.py
 ├── requirements.txt
 
-'''
+```
